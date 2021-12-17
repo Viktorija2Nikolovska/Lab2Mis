@@ -23,9 +23,9 @@ class _MyAppState extends State<MyApp> {
       "question": "Select top",
       'answer': [
         'Shirt',
-        't-Shirt',
-        'jacket',
-        'jumper'
+        'T-Shirt',
+        'Jacket',
+        'Jumper'
       ]
     },
     {
@@ -37,11 +37,11 @@ class _MyAppState extends State<MyApp> {
       ]
     },
     {
-      "question": "Select 3 shoes",
+      "question": "Select shoes",
       'answer': [
-        'sneakers',
-        'boots',
-        'heels'
+        'Sneakers',
+        'Boots',
+        'Heels'
       ]
     }
   ];
@@ -60,7 +60,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "  Choose clothes",
+      //title: "  Choose clothes",
       home: Scaffold(
         appBar: AppBar(
           title: Text(
