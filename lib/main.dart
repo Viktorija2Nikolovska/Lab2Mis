@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'clothes_questions.dart';
-import 'clothes_answer.dart';
+import 'ClothesChoice/clothes_questions.dart';
+import 'ClothesChoice/clothes_answer.dart';
 import 'dart:convert';
 import 'dart:core';
 
